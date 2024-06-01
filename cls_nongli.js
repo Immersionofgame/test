@@ -105,6 +105,9 @@ class ClsNongli {
     }
 }
 
+
+
+module.exports = ClsNongli;
 // // 使用示例
 // try {
 //     const lunarDate = ClsNongli.convertSolarToLunar(2022, 5, 9);
