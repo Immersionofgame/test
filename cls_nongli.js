@@ -105,10 +105,11 @@ class ClsNongli {
     }
 }
 
-// 使用示例
-try {
-    const lunarDate = ClsNongli.convertSolarToLunar(2022, 5, 9);
-    console.log(lunarDate); // 输出转换后的阴历日期信息
-} catch (e) {
-    console.error(e);
-}
+// // 使用示例
+// try {
+//     const lunarDate = ClsNongli.convertSolarToLunar(2022, 5, 9);
+//     console.log(lunarDate); // 输出转换后的阴历日期信息
+// } catch (e) {
+//     console.error(e);
+// }
+

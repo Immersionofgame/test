@@ -22,6 +22,7 @@ app.get('/', (req, res) => {
     `);
 });
 
+
 app.post('/convert', (req, res) => {
     const { year, month, day } = req.body;
     const result = ClsNongli.convertSolarToLunar(parseInt(year), parseInt(month), parseInt(day));
