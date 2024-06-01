@@ -1,7 +1,7 @@
 const express = require('express');
 const ClsNongli = require('./cls_nongli'); // 引入cls_nongli模块
 const app = express();
-const port = 3000;
+// const port = 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -28,6 +28,13 @@ app.post('/convert', (req, res) => {
     res.send(`Converted Date: ${result}`);
 });
 
+// app.listen(port, () => {
+//     console.log(`Server running on http://localhost:${port}`);
+// });
+
+
+
+const port = 80;
 app.listen(port, () => {
-    console.log(`Server running on http://localhost:${port}`);
+  console.log(`Server running at http://localhost:${port}/`);
 });
